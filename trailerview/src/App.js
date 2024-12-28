@@ -1,12 +1,11 @@
-import "./index.css"
+import { Box } from "@mui/material";
+import Navbar from "./Components/Navbar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      <h1 class="text-2xl font-bold underline p-96" >Hello Maharshi</h1>
-      </header>
-    </div>
+    <Box>
+      <Navbar />
+    </Box>
   );
 }
 
